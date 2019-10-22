@@ -10,7 +10,7 @@ void setup()
 void loop()
 {
   
-  int c=analogRead(A0);
+  int c=analogRead(A4);
   delay(500);
   if(c<100)
   {
